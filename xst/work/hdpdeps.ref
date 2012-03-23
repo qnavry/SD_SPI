@@ -1,0 +1,77 @@
+V3 36
+FL C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/Baud_generator.vhd 2012/03/09.17:50:20 O.40d
+FL C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/Debouncer.vhd 2012/03/09.17:50:45 O.40d
+FL C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/FIFO.vhd 2012/03/09.17:49:39 O.40d
+FL C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/SD_SPI.vhd 2012/03/09.17:54:26 O.40d
+FL C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/UART_receiver.vhd 2012/03/09.17:50:32 O.40d
+FL C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/UART_top.vhd 2012/03/09.17:50:27 O.40d
+FL C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/UART_transmiter.vhd 2012/03/09.17:50:40 O.40d
+FL C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/Baud_generator.vhd 2012/03/16.14:12:50 O.40d
+EN work/mod_m_counter 1332499995 \
+      FL C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/Baud_generator.vhd \
+      PB ieee/std_logic_1164 1296775758 PB ieee/NUMERIC_STD 1296775759
+AR work/mod_m_counter/arch 1332499996 \
+      FL C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/Baud_generator.vhd \
+      EN work/mod_m_counter 1332499995
+FL C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/Debouncer.vhd 2012/03/09.17:50:45 O.40d
+EN work/debounce 1332500009 \
+      FL C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/Debouncer.vhd \
+      PB ieee/std_logic_1164 1296775758 PB ieee/NUMERIC_STD 1296775759
+AR work/debounce/fsmd_arch 1332500010 \
+      FL C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/Debouncer.vhd \
+      EN work/debounce 1332500009
+FL C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/disp_mux.vhd 2012/03/13.10:55:02 O.40d
+EN work/disp_mux 1332500005 \
+      FL C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/disp_mux.vhd \
+      PB ieee/std_logic_1164 1296775758 PB ieee/NUMERIC_STD 1296775759
+AR work/disp_mux/arch 1332500006 \
+      FL C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/disp_mux.vhd \
+      EN work/disp_mux 1332500005
+FL C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/FIFO.vhd 2012/03/23.11:48:58 O.40d
+EN work/fifo 1332499999 \
+      FL C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/FIFO.vhd \
+      PB ieee/std_logic_1164 1296775758 PB ieee/NUMERIC_STD 1296775759 \
+      PB ieee/STD_LOGIC_UNSIGNED 1296775760
+AR work/fifo/arch 1332500000 \
+      FL C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/FIFO.vhd \
+      EN work/fifo 1332499999
+FL C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/SD_SPI.vhd 2012/03/16.18:19:09 O.40d
+EN work/sd_controller 1332500011 \
+      FL C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/SD_SPI.vhd \
+      PB ieee/std_logic_1164 1296775758 PB ieee/NUMERIC_STD 1296775759 \
+      PB ieee/STD_LOGIC_UNSIGNED 1296775760
+AR work/sd_controller/rtl 1332500012 \
+      FL C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/SD_SPI.vhd \
+      EN work/sd_controller 1332500011 CP work/hex_to_sseg CP work/disp_mux \
+      AR work/uart/str_arch 1332500008 AR work/debounce/fsmd_arch 1332500010
+FL C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/seg7.vhd 2012/03/13.10:21:18 O.40d
+EN work/hex_to_sseg 1332500003 \
+      FL C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/seg7.vhd \
+      PB ieee/std_logic_1164 1296775758
+AR work/hex_to_sseg/arch 1332500004 \
+      FL C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/seg7.vhd \
+      EN work/hex_to_sseg 1332500003
+FL C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/UART_receiver.vhd 2012/03/09.17:50:32 O.40d
+EN work/uart_rx 1332499997 \
+      FL C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/UART_receiver.vhd \
+      PB ieee/std_logic_1164 1296775758 PB ieee/NUMERIC_STD 1296775759
+AR work/uart_rx/arch 1332499998 \
+      FL C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/UART_receiver.vhd \
+      EN work/uart_rx 1332499997
+FL C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/UART_top.vhd 2012/03/16.18:25:03 O.40d
+EN work/uart 1332500007 \
+      FL C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/UART_top.vhd \
+      PB ieee/std_logic_1164 1296775758 PB ieee/NUMERIC_STD 1296775759 \
+      PB ieee/STD_LOGIC_UNSIGNED 1296775760
+AR work/uart/str_arch 1332500008 \
+      FL C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/UART_top.vhd \
+      EN work/uart 1332500007 AR work/mod_m_counter/arch 1332499996 \
+      AR work/uart_rx/arch 1332499998 AR work/fifo/arch 1332500000 \
+      AR work/uart_tx/arch 1332500002
+FL C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/UART_transmiter.vhd 2012/03/09.17:50:40 O.40d
+EN work/uart_tx 1332500001 \
+      FL C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/UART_transmiter.vhd \
+      PB ieee/std_logic_1164 1296775758 PB ieee/NUMERIC_STD 1296775759
+AR work/uart_tx/arch 1332500002 \
+      FL C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/UART_transmiter.vhd \
+      EN work/uart_tx 1332500001

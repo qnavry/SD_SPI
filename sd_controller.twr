@@ -1,0 +1,91 @@
+--------------------------------------------------------------------------------
+Release 13.1 Trace  (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\13.1\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 4 -n
+3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr
+sd_controller.pcf -ucf piny.ucf
+
+Design file:              sd_controller.ncd
+Physical constraint file: sd_controller.pcf
+Device,package,speed:     xc3s200,vq100,-4 (PRODUCTION 1.39 2011-02-03)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock clk to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+an<0>       |   11.726(R)|clk_BUFGP         |   0.000|
+an<1>       |   11.652(R)|clk_BUFGP         |   0.000|
+an<2>       |   11.029(R)|clk_BUFGP         |   0.000|
+an<3>       |   10.909(R)|clk_BUFGP         |   0.000|
+an<4>       |   11.169(R)|clk_BUFGP         |   0.000|
+an<5>       |   11.464(R)|clk_BUFGP         |   0.000|
+clk400      |    9.141(R)|clk_BUFGP         |   0.000|
+sseg<0>     |   13.715(R)|clk_BUFGP         |   0.000|
+sseg<1>     |   13.642(R)|clk_BUFGP         |   0.000|
+sseg<2>     |   13.640(R)|clk_BUFGP         |   0.000|
+sseg<3>     |   13.448(R)|clk_BUFGP         |   0.000|
+sseg<4>     |   14.002(R)|clk_BUFGP         |   0.000|
+sseg<5>     |   14.065(R)|clk_BUFGP         |   0.000|
+sseg<6>     |   13.676(R)|clk_BUFGP         |   0.000|
+sseg<7>     |   13.569(R)|clk_BUFGP         |   0.000|
+tx          |    9.120(R)|clk_BUFGP         |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    5.892|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+----------------+---------+
+Source Pad     |Destination Pad |  Delay  |
+---------------+----------------+---------+
+btn<0>         |test_tick_button|   15.675|
+---------------+----------------+---------+
+
+
+Analysis completed Fri Mar 23 11:53:49 2012 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 100 MB
+
+
+

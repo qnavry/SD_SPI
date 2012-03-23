@@ -1,0 +1,17 @@
+PROMGEN: Xilinx Prom Generator O.40d
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+promgen -w -p mcs -c FF -o C:\Users\Guest4\Documents\Xilinx_Workspace\SD_SPI_1303//v2 -x xcf01s -u 00000000 C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.bit 
+
+PROM C:\Users\Guest4\Documents\Xilinx_Workspace\SD_SPI_1303\v2.prm map: Fri Mar 23 11:54:38 2012
+
+Calculating PROM checksum with fill value ff
+
+Format        Mcs86 (32-bit)
+Size          128K
+PROM start    0000:0000
+PROM end      0001:ffff
+PROM checksum 000cfd49
+
+        Addr1        Addr2                     Date File(s)
+    0000:0000    0001:ff87     Mar 23 11:53:56 2012 C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.bit

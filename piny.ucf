@@ -1,0 +1,47 @@
+NET  "clk" LOC = "P38";         	#
+NET  "reset" LOC = "P4";		  	#J1_13 -> SW7
+
+NET "cs" LOC = "P48";			  	#J2_36
+NET "mosi" LOC = "P47";			  	#J2_31 	
+NET "miso" LOC = "P44";         	#J2_32
+NET "sclk" LOC = "P49";				#J2_29
+
+
+NET  "led<7>" LOC = "P11";			#J1_17 -> LED7
+NET  "led<6>" LOC = "P12";			#J1_18 -> LED6
+NET  "led<5>" LOC = "P13";			#J1_19 -> LED5
+NET  "led<4>" LOC = "P14";			#J1_20 -> LED4
+NET  "led<3>" LOC = "P16";			#J1_22 -> LED3
+NET  "led<2>" LOC = "P17";			#J1_23 -> LED2
+NET  "led<1>" LOC = "P21";			#J1_24 -> LED1
+NET  "led<0>" LOC = "P23";			#J1_26 -> LED0
+
+NET  "tx" LOC = "P61";				#J2_22 -> TXD
+#NET  "rx" LOC = "P62";				#J2_21 -> RXD
+
+NET "zapis_fifo" LOC = "P39";		#J2_36
+NET "clk400" LOC = "P43"; 			#J2_33
+#NET "clk1600" LOC = "P40";      #J2_35
+
+NET "btn<0>" LOC = "P8";       	#J1_15 -> SW5
+#NET "wysw2_btn" LOC = "P5";     #J1_14 -> SW6
+#NET "an" LOC = "P88";
+#NET "seg" LOC = "P79";
+#NET "test_tick_button" LOC = "P30";
+#NET "level_button" LOC = "P22";
+#NET "test_tick_button" LOC = "P75";
+NET  "an<0>" LOC = "P88";
+NET  "an<1>" LOC = "P87";
+NET  "an<2>" LOC = "P86";
+NET  "an<3>" LOC = "P85";
+NET  "an<4>" LOC = "P81";
+NET  "an<5>" LOC = "P80";
+
+NET  "sseg<7>" LOC = "P65";
+NET  "sseg<6>" LOC = "P79";
+NET  "sseg<5>" LOC = "P75";
+NET  "sseg<4>" LOC = "P74";
+NET  "sseg<3>" LOC = "P72";
+NET  "sseg<2>" LOC = "P71";
+NET  "sseg<1>" LOC = "P68";
+NET  "sseg<0>" LOC = "P67";

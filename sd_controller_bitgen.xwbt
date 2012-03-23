@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Guest4\Documents\Xilinx_Workspace\SD_SPI_1303\sd_controller.ncd
+OUTFILE=C:\Users\Guest4\Documents\Xilinx_Workspace\SD_SPI_1303\sd_controller.bit
+FAMILY=Spartan3
+PART=xc3s200-4vq100
+WORKINGDIR=C:\Users\Guest4\Documents\Xilinx_Workspace\SD_SPI_1303
+LICENSE=WebPack
+USER_INFO=206282144_0_0_515

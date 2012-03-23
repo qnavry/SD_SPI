@@ -1,0 +1,478 @@
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.syr" 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.syr" 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.syr" 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.syr" 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.syr" 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.syr" 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.syr" 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.syr" 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.syr" 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.syr" 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.syr" 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.syr" 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_0903/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.syr" 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.syr" 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.syr" 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.syr" 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.syr" 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.syr" 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.syr" 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.syr" 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.syr" 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.syr" 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.syr" 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.syr" 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.syr" 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.syr" 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.syr" 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.syr" 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.syr" 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.syr" 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.syr" 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 
+xst -intstyle ise -ifn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.xst" -ofn "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piny.ucf -p xc3s200-vq100-4 sd_controller.ngc sd_controller.ngd  
+map -intstyle ise -p xc3s200-vq100-4 -cm area -ir off -pr off -c 100 -o sd_controller_map.ncd sd_controller.ngd sd_controller.pcf 
+par -w -intstyle ise -ol high -t 1 sd_controller_map.ncd sd_controller.ncd sd_controller.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml sd_controller.twx sd_controller.ncd -o sd_controller.twr sd_controller.pcf -ucf piny.ucf 
+bitgen -intstyle ise -f sd_controller.ut sd_controller.ncd 

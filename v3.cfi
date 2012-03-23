@@ -1,0 +1,11 @@
+# PROMGEN: Xilinx Prom Generator O.40d
+# Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+SOFTWARE_VERSION O.40d
+DATE            03/23/2012 - 11:55
+SOURCE          C:\Users\Guest4\Documents\Xilinx_Workspace\SD_SPI_1303\v3.mcs
+DEVICE          XCF01S
+DATA_WIDTH      8
+FILL_DATA       0xFF
+SIGNATURE       0x000CFD49
+START_ADDRESS   0x00000000 END_ADDRESS 0x0001FF87 DIRECTION_UP   "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/sd_controller.bit" 3s200vq100

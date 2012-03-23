@@ -1,0 +1,8 @@
+Release 13.1 Drc O.40d (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+Fri Mar 23 11:53:52 2012
+
+drc -z sd_controller.ncd sd_controller.pcf
+
+DRC detected 0 errors and 0 warnings.

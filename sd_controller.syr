@@ -1,0 +1,992 @@
+Release 13.1 - xst O.40d (nt)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.17 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.17 secs
+ 
+--> Reading design: sd_controller.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "sd_controller.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "sd_controller"
+Output Format                      : NGC
+Target Device                      : xc3s200-4-vq100
+
+---- Source Options
+Top Module Name                    : sd_controller
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/Baud_generator.vhd" in Library work.
+Architecture arch of Entity mod_m_counter is up to date.
+Compiling vhdl file "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/UART_receiver.vhd" in Library work.
+Architecture arch of Entity uart_rx is up to date.
+Compiling vhdl file "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/FIFO.vhd" in Library work.
+Entity <fifo> compiled.
+Entity <fifo> (Architecture <arch>) compiled.
+Compiling vhdl file "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/UART_transmiter.vhd" in Library work.
+Architecture arch of Entity uart_tx is up to date.
+Compiling vhdl file "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/seg7.vhd" in Library work.
+Architecture arch of Entity hex_to_sseg is up to date.
+Compiling vhdl file "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/disp_mux.vhd" in Library work.
+Architecture arch of Entity disp_mux is up to date.
+Compiling vhdl file "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/UART_top.vhd" in Library work.
+Architecture str_arch of Entity uart is up to date.
+Compiling vhdl file "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/Debouncer.vhd" in Library work.
+Architecture fsmd_arch of Entity debounce is up to date.
+Compiling vhdl file "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/SD_SPI.vhd" in Library work.
+Architecture rtl of Entity sd_controller is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <sd_controller> in library <work> (architecture <rtl>) with generics.
+	Div = 62
+	Div2 = 1
+
+Analyzing hierarchy for entity <hex_to_sseg> in library <work> (architecture <arch>).
+
+Analyzing hierarchy for entity <disp_mux> in library <work> (architecture <arch>).
+
+Analyzing hierarchy for entity <uart> in library <work> (architecture <str_arch>) with generics.
+	DBIT = 8
+	DVSR = 163
+	DVSR_BIT = 8
+	FIFO_W = 2
+	SB_TICK = 16
+
+Analyzing hierarchy for entity <debounce> in library <work> (architecture <fsmd_arch>).
+
+Analyzing hierarchy for entity <mod_m_counter> in library <work> (architecture <arch>) with generics.
+	M = 163
+	N = 8
+
+Analyzing hierarchy for entity <uart_rx> in library <work> (architecture <arch>) with generics.
+	DBIT = 8
+	SB_TICK = 16
+
+Analyzing hierarchy for entity <fifo> in library <work> (architecture <arch>) with generics.
+	B = 8
+	W = 2
+
+Analyzing hierarchy for entity <uart_tx> in library <work> (architecture <arch>) with generics.
+	DBIT = 8
+	SB_TICK = 16
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing generic Entity <sd_controller> in library <work> (Architecture <rtl>).
+	Div = 62
+	Div2 = 1
+WARNING:Xst:819 - "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/SD_SPI.vhd" line 209: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <dm_in>
+Entity <sd_controller> analyzed. Unit <sd_controller> generated.
+
+Analyzing Entity <hex_to_sseg> in library <work> (Architecture <arch>).
+Entity <hex_to_sseg> analyzed. Unit <hex_to_sseg> generated.
+
+Analyzing Entity <disp_mux> in library <work> (Architecture <arch>).
+Entity <disp_mux> analyzed. Unit <disp_mux> generated.
+
+Analyzing generic Entity <uart> in library <work> (Architecture <str_arch>).
+	DBIT = 8
+	DVSR = 163
+	DVSR_BIT = 8
+	FIFO_W = 2
+	SB_TICK = 16
+WARNING:Xst:753 - "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/UART_top.vhd" line 56: Unconnected output port 'q' of component 'mod_m_counter'.
+WARNING:Xst:753 - "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/UART_top.vhd" line 65: Unconnected output port 'full' of component 'fifo'.
+Entity <uart> analyzed. Unit <uart> generated.
+
+Analyzing generic Entity <mod_m_counter> in library <work> (Architecture <arch>).
+	M = 163
+	N = 8
+Entity <mod_m_counter> analyzed. Unit <mod_m_counter> generated.
+
+Analyzing generic Entity <uart_rx> in library <work> (Architecture <arch>).
+	DBIT = 8
+	SB_TICK = 16
+Entity <uart_rx> analyzed. Unit <uart_rx> generated.
+
+Analyzing generic Entity <fifo> in library <work> (Architecture <arch>).
+	B = 8
+	W = 2
+Entity <fifo> analyzed. Unit <fifo> generated.
+
+Analyzing generic Entity <uart_tx> in library <work> (Architecture <arch>).
+	DBIT = 8
+	SB_TICK = 16
+Entity <uart_tx> analyzed. Unit <uart_tx> generated.
+
+Analyzing Entity <debounce> in library <work> (Architecture <fsmd_arch>).
+Entity <debounce> analyzed. Unit <debounce> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <hex_to_sseg>.
+    Related source file is "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/seg7.vhd".
+    Found 16x7-bit ROM for signal <hex$rom0000>.
+    Summary:
+	inferred   1 ROM(s).
+Unit <hex_to_sseg> synthesized.
+
+
+Synthesizing Unit <disp_mux>.
+    Related source file is "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/disp_mux.vhd".
+    Found 18-bit up counter for signal <q_reg>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <disp_mux> synthesized.
+
+
+Synthesizing Unit <debounce>.
+    Related source file is "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/Debouncer.vhd".
+    Found finite state machine <FSM_0> for signal <state_reg>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 10                                             |
+    | Inputs             | 2                                              |
+    | Outputs            | 5                                              |
+    | Clock              | clk                       (rising_edge)        |
+    | Reset              | reset                     (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | zero                                           |
+    | Power Up State     | zero                                           |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 18-bit subtractor for signal <q_next$share0000> created at line 36.
+    Found 18-bit register for signal <q_reg>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred  18 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <debounce> synthesized.
+
+
+Synthesizing Unit <mod_m_counter>.
+    Related source file is "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/Baud_generator.vhd".
+    Found 8-bit adder for signal <r_next$addsub0000> created at line 30.
+    Found 8-bit register for signal <r_reg>.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <mod_m_counter> synthesized.
+
+
+Synthesizing Unit <uart_rx>.
+    Related source file is "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/UART_receiver.vhd".
+    Found finite state machine <FSM_1> for signal <state_reg>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 12                                             |
+    | Inputs             | 5                                              |
+    | Outputs            | 5                                              |
+    | Clock              | clk                       (rising_edge)        |
+    | Reset              | reset                     (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | idle                                           |
+    | Power Up State     | idle                                           |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 8-bit register for signal <b_reg>.
+    Found 3-bit register for signal <n_reg>.
+    Found 3-bit adder for signal <n_reg$addsub0000> created at line 72.
+    Found 4-bit register for signal <s_reg>.
+    Found 4-bit adder for signal <s_reg$share0000> created at line 48.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred  15 D-type flip-flop(s).
+	inferred   2 Adder/Subtractor(s).
+Unit <uart_rx> synthesized.
+
+
+Synthesizing Unit <fifo>.
+    Related source file is "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/FIFO.vhd".
+    Found 8-bit 4-to-1 multiplexer for signal <r_data>.
+    Found 32-bit register for signal <array_reg>.
+    Found 1-bit register for signal <empty_reg>.
+    Found 2-bit comparator equal for signal <empty_reg$cmp_eq0000> created at line 106.
+    Found 1-bit 4-to-1 multiplexer for signal <empty_reg$mux0000> created at line 100.
+    Found 1-bit register for signal <full_reg>.
+    Found 2-bit comparator equal for signal <full_reg$cmp_eq0000> created at line 114.
+    Found 1-bit 4-to-1 multiplexer for signal <full_reg$mux0000> created at line 100.
+    Found 2-bit register for signal <r_ptr_reg>.
+    Found 2-bit 4-to-1 multiplexer for signal <r_ptr_reg$mux0000> created at line 100.
+    Found 2-bit adder for signal <r_ptr_succ$add0000> created at line 89.
+    Found 2-bit register for signal <w_ptr_reg>.
+    Found 2-bit 4-to-1 multiplexer for signal <w_ptr_reg$mux0000> created at line 100.
+    Found 2-bit adder for signal <w_ptr_succ$add0000> created at line 88.
+    Summary:
+	inferred  38 D-type flip-flop(s).
+	inferred   2 Adder/Subtractor(s).
+	inferred   2 Comparator(s).
+	inferred  14 Multiplexer(s).
+Unit <fifo> synthesized.
+
+
+Synthesizing Unit <uart_tx>.
+    Related source file is "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/UART_transmiter.vhd".
+    Found finite state machine <FSM_2> for signal <state_reg>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 12                                             |
+    | Inputs             | 4                                              |
+    | Outputs            | 4                                              |
+    | Clock              | clk                       (rising_edge)        |
+    | Reset              | reset                     (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | idle                                           |
+    | Power Up State     | idle                                           |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 8-bit register for signal <b_reg>.
+    Found 3-bit register for signal <n_reg>.
+    Found 3-bit adder for signal <n_reg$addsub0000> created at line 82.
+    Found 4-bit adder for signal <s_next$add0000> created at line 70.
+    Found 4-bit register for signal <s_reg>.
+    Found 1-bit register for signal <tx_reg>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred  16 D-type flip-flop(s).
+	inferred   2 Adder/Subtractor(s).
+Unit <uart_tx> synthesized.
+
+
+Synthesizing Unit <uart>.
+    Related source file is "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/UART_top.vhd".
+WARNING:Xst:1780 - Signal <wrr> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <count> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+Unit <uart> synthesized.
+
+
+Synthesizing Unit <sd_controller>.
+    Related source file is "C:/Users/Guest4/Documents/Xilinx_Workspace/SD_SPI_1303/SD_SPI.vhd".
+WARNING:Xst:647 - Input <din> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <btn<2:1>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <wysw2_btn> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:1306 - Output <clk1600> is never assigned.
+WARNING:Xst:1780 - Signal <wrr> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <rx_empty> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <recv_data<39>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <rec_data1> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <rec_data> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <odpowiedz<27:16>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <odpowiedz<11:8>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:646 - Signal <level_button> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <cnt2> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <clk1600kHz> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+    Using one-hot encoding for signal <state>.
+    Using one-hot encoding for signal <response_mode>.
+INFO:Xst:2117 - HDL ADVISOR - Mux Selector <state> of Case statement line 225 was re-encoded using one-hot encoding. The case statement will be optimized (default statement optimization), but this optimization may lead to design initialization problems. To ensure the design works safely, you can:
+   	- add an 'INIT' attribute on signal <state> (optimization is then done without any risk)
+   	- use the attribute 'signal_encoding user' to avoid onehot optimization
+   	- use the attribute 'safe_implementation yes' to force XST to perform a safe (but less efficient) optimization
+INFO:Xst:2117 - HDL ADVISOR - Mux Selector <response_mode> of Case statement line 0 was re-encoded using one-hot encoding. The case statement will be optimized (default statement optimization), but this optimization may lead to design initialization problems. To ensure the design works safely, you can:
+   	- add an 'INIT' attribute on signal <response_mode> (optimization is then done without any risk)
+   	- use the attribute 'signal_encoding user' to avoid onehot optimization
+   	- use the attribute 'safe_implementation yes' to force XST to perform a safe (but less efficient) optimization
+    Found 1-bit register for signal <cs>.
+    Found 8-bit register for signal <led>.
+    Found 32-bit register for signal <address>.
+    Found 32-bit adder for signal <address$share0000> created at line 225.
+    Found 8-bit register for signal <bit_counter>.
+    Found 8-bit subtractor for signal <bit_counter$share0000> created at line 225.
+    Found 10-bit register for signal <byte_counter>.
+    Found 10-bit subtractor for signal <byte_counter$addsub0000>.
+    Found 1-bit register for signal <clk400kHz>.
+    Found 1-bit register for signal <cmd_mode>.
+    Found 56-bit register for signal <cmd_out>.
+    Found 30-bit up counter for signal <cnt>.
+    Found 31-bit comparator less for signal <cnt$cmp_lt0000> created at line 184.
+    Found 10-bit up counter for signal <count>.
+    Found 8-bit register for signal <data_sig>.
+    Found 6-bit register for signal <dp_v>.
+    Found 12-bit register for signal <odpowiedz<39:28>>.
+    Found 4-bit register for signal <odpowiedz<15:12>>.
+    Found 8-bit register for signal <odpowiedz<7:0>>.
+    Found 8-bit register for signal <odpowiedzR1>.
+    Found 40-bit register for signal <odpowiedzR3>.
+    Found 40-bit register for signal <recv_data>.
+    Found 3-bit register for signal <response_mode>.
+    Found 29-bit register for signal <return_state>.
+    Found 1-bit register for signal <sclk_sig>.
+    Found 29-bit register for signal <state>.
+    Found 8-bit register for signal <to_fifo>.
+    Found 1-bit register for signal <write_uart_fifo_tx>.
+    Summary:
+	inferred   2 Counter(s).
+	inferred 314 D-type flip-flop(s).
+	inferred   3 Adder/Subtractor(s).
+	inferred   1 Comparator(s).
+Unit <sd_controller> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 6
+ 16x7-bit ROM                                          : 6
+# Adders/Subtractors                                   : 13
+ 10-bit subtractor                                     : 1
+ 18-bit subtractor                                     : 1
+ 2-bit adder                                           : 4
+ 3-bit adder                                           : 2
+ 32-bit adder                                          : 1
+ 4-bit adder                                           : 2
+ 8-bit adder                                           : 1
+ 8-bit subtractor                                      : 1
+# Counters                                             : 3
+ 10-bit up counter                                     : 1
+ 18-bit up counter                                     : 1
+ 30-bit up counter                                     : 1
+# Registers                                            : 68
+ 1-bit register                                        : 34
+ 10-bit register                                       : 1
+ 18-bit register                                       : 1
+ 2-bit register                                        : 4
+ 29-bit register                                       : 2
+ 3-bit register                                        : 3
+ 32-bit register                                       : 1
+ 4-bit register                                        : 2
+ 40-bit register                                       : 2
+ 56-bit register                                       : 1
+ 6-bit register                                        : 1
+ 8-bit register                                        : 16
+# Comparators                                          : 5
+ 2-bit comparator equal                                : 4
+ 31-bit comparator less                                : 1
+# Multiplexers                                         : 10
+ 1-bit 4-to-1 multiplexer                              : 4
+ 2-bit 4-to-1 multiplexer                              : 4
+ 8-bit 4-to-1 multiplexer                              : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_2> for best encoding.
+Optimizing FSM <uart_unit/uart_tx_unit/state_reg/FSM> on signal <state_reg[1:2]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ idle  | 00
+ start | 01
+ data  | 11
+ stop  | 10
+-------------------
+Analyzing FSM <FSM_1> for best encoding.
+Optimizing FSM <uart_unit/uart_rx_unit/state_reg/FSM> on signal <state_reg[1:2]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ idle  | 00
+ start | 01
+ data  | 11
+ stop  | 10
+-------------------
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <btn_db_unit/state_reg/FSM> on signal <state_reg[1:2]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ zero  | 00
+ wait0 | 10
+ one   | 11
+ wait1 | 01
+-------------------
+WARNING:Xst:1290 - Hierarchical block <uart_rx_unit> is unconnected in block <uart_unit>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <fifo_rx_unit> is unconnected in block <uart_unit>.
+   It will be removed from the design.
+WARNING:Xst:1710 - FF/Latch <dp_v_4> (without init value) has a constant value of 0 in block <sd_controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <dp_v_5> (without init value) has a constant value of 0 in block <sd_controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <return_state_27> has a constant value of 0 in block <sd_controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <return_state_26> has a constant value of 0 in block <sd_controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <return_state_24> has a constant value of 0 in block <sd_controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <return_state_23> has a constant value of 0 in block <sd_controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <return_state_22> has a constant value of 0 in block <sd_controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <return_state_21> has a constant value of 0 in block <sd_controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <return_state_17> has a constant value of 0 in block <sd_controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <return_state_15> has a constant value of 0 in block <sd_controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <return_state_14> has a constant value of 0 in block <sd_controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <return_state_13> has a constant value of 0 in block <sd_controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <return_state_12> has a constant value of 0 in block <sd_controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <return_state_11> has a constant value of 0 in block <sd_controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <return_state_10> has a constant value of 0 in block <sd_controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <return_state_9> has a constant value of 0 in block <sd_controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <return_state_8> has a constant value of 0 in block <sd_controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <return_state_7> has a constant value of 0 in block <sd_controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <return_state_6> has a constant value of 0 in block <sd_controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <return_state_2> has a constant value of 0 in block <sd_controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <return_state_1> has a constant value of 0 in block <sd_controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <led_7> (without init value) has a constant value of 0 in block <sd_controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <recv_data_39> of sequential type is unconnected in block <sd_controller>.
+WARNING:Xst:2677 - Node <recv_data_39> of sequential type is unconnected in block <sd_controller>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 3
+# ROMs                                                 : 6
+ 16x7-bit ROM                                          : 6
+# Adders/Subtractors                                   : 13
+ 10-bit subtractor                                     : 1
+ 18-bit subtractor                                     : 1
+ 2-bit adder                                           : 4
+ 3-bit adder                                           : 2
+ 32-bit adder                                          : 1
+ 4-bit adder                                           : 2
+ 8-bit adder                                           : 1
+ 8-bit subtractor                                      : 1
+# Counters                                             : 3
+ 10-bit up counter                                     : 1
+ 18-bit up counter                                     : 1
+ 30-bit up counter                                     : 1
+# Registers                                            : 446
+ Flip-Flops                                            : 446
+# Comparators                                          : 5
+ 2-bit comparator equal                                : 4
+ 31-bit comparator less                                : 1
+# Multiplexers                                         : 10
+ 1-bit 4-to-1 multiplexer                              : 4
+ 2-bit 4-to-1 multiplexer                              : 4
+ 8-bit 4-to-1 multiplexer                              : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <dp_v_4> (without init value) has a constant value of 0 in block <sd_controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <dp_v_5> (without init value) has a constant value of 0 in block <sd_controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <return_state_27> has a constant value of 0 in block <sd_controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <return_state_26> has a constant value of 0 in block <sd_controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <return_state_24> has a constant value of 0 in block <sd_controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <return_state_23> has a constant value of 0 in block <sd_controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <return_state_22> has a constant value of 0 in block <sd_controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <return_state_21> has a constant value of 0 in block <sd_controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <return_state_17> has a constant value of 0 in block <sd_controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <return_state_15> has a constant value of 0 in block <sd_controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <return_state_14> has a constant value of 0 in block <sd_controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <return_state_13> has a constant value of 0 in block <sd_controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <return_state_12> has a constant value of 0 in block <sd_controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <return_state_11> has a constant value of 0 in block <sd_controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <return_state_10> has a constant value of 0 in block <sd_controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <return_state_9> has a constant value of 0 in block <sd_controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <return_state_8> has a constant value of 0 in block <sd_controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <return_state_7> has a constant value of 0 in block <sd_controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <return_state_6> has a constant value of 0 in block <sd_controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <return_state_2> has a constant value of 0 in block <sd_controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <return_state_1> has a constant value of 0 in block <sd_controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <led_7> (without init value) has a constant value of 0 in block <sd_controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <address_0> (without init value) has a constant value of 0 in block <sd_controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <address_1> (without init value) has a constant value of 0 in block <sd_controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <address_2> (without init value) has a constant value of 0 in block <sd_controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <address_3> (without init value) has a constant value of 0 in block <sd_controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <address_4> (without init value) has a constant value of 0 in block <sd_controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <address_5> (without init value) has a constant value of 0 in block <sd_controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <address_6> (without init value) has a constant value of 0 in block <sd_controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <address_7> (without init value) has a constant value of 0 in block <sd_controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <address_8> (without init value) has a constant value of 0 in block <sd_controller>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <sd_controller> ...
+WARNING:Xst:1710 - FF/Latch <led_0> (without init value) has a constant value of 1 in block <sd_controller>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <cmd_out_0> (without init value) has a constant value of 1 in block <sd_controller>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <disp_mux> ...
+
+Optimizing unit <debounce> ...
+
+Optimizing unit <mod_m_counter> ...
+
+Optimizing unit <uart_rx> ...
+
+Optimizing unit <fifo> ...
+
+Optimizing unit <uart_tx> ...
+WARNING:Xst:2677 - Node <uart_unit/uart_rx_unit/state_reg_FSM_FFd2> of sequential type is unconnected in block <sd_controller>.
+WARNING:Xst:2677 - Node <uart_unit/uart_rx_unit/state_reg_FSM_FFd1> of sequential type is unconnected in block <sd_controller>.
+WARNING:Xst:2677 - Node <uart_unit/uart_rx_unit/s_reg_3> of sequential type is unconnected in block <sd_controller>.
+WARNING:Xst:2677 - Node <uart_unit/uart_rx_unit/s_reg_2> of sequential type is unconnected in block <sd_controller>.
+WARNING:Xst:2677 - Node <uart_unit/uart_rx_unit/s_reg_1> of sequential type is unconnected in block <sd_controller>.
+WARNING:Xst:2677 - Node <uart_unit/uart_rx_unit/s_reg_0> of sequential type is unconnected in block <sd_controller>.
+WARNING:Xst:2677 - Node <uart_unit/uart_rx_unit/n_reg_2> of sequential type is unconnected in block <sd_controller>.
+WARNING:Xst:2677 - Node <uart_unit/uart_rx_unit/n_reg_1> of sequential type is unconnected in block <sd_controller>.
+WARNING:Xst:2677 - Node <uart_unit/uart_rx_unit/n_reg_0> of sequential type is unconnected in block <sd_controller>.
+WARNING:Xst:2677 - Node <uart_unit/uart_rx_unit/b_reg_7> of sequential type is unconnected in block <sd_controller>.
+WARNING:Xst:2677 - Node <uart_unit/uart_rx_unit/b_reg_6> of sequential type is unconnected in block <sd_controller>.
+WARNING:Xst:2677 - Node <uart_unit/uart_rx_unit/b_reg_5> of sequential type is unconnected in block <sd_controller>.
+WARNING:Xst:2677 - Node <uart_unit/uart_rx_unit/b_reg_4> of sequential type is unconnected in block <sd_controller>.
+WARNING:Xst:2677 - Node <uart_unit/uart_rx_unit/b_reg_3> of sequential type is unconnected in block <sd_controller>.
+WARNING:Xst:2677 - Node <uart_unit/uart_rx_unit/b_reg_2> of sequential type is unconnected in block <sd_controller>.
+WARNING:Xst:2677 - Node <uart_unit/uart_rx_unit/b_reg_1> of sequential type is unconnected in block <sd_controller>.
+WARNING:Xst:2677 - Node <uart_unit/uart_rx_unit/b_reg_0> of sequential type is unconnected in block <sd_controller>.
+WARNING:Xst:2677 - Node <uart_unit/fifo_rx_unit/r_ptr_reg_1> of sequential type is unconnected in block <sd_controller>.
+WARNING:Xst:2677 - Node <uart_unit/fifo_rx_unit/r_ptr_reg_0> of sequential type is unconnected in block <sd_controller>.
+WARNING:Xst:2677 - Node <uart_unit/fifo_rx_unit/w_ptr_reg_1> of sequential type is unconnected in block <sd_controller>.
+WARNING:Xst:2677 - Node <uart_unit/fifo_rx_unit/w_ptr_reg_0> of sequential type is unconnected in block <sd_controller>.
+WARNING:Xst:2677 - Node <uart_unit/fifo_rx_unit/full_reg> of sequential type is unconnected in block <sd_controller>.
+WARNING:Xst:2677 - Node <uart_unit/fifo_rx_unit/empty_reg> of sequential type is unconnected in block <sd_controller>.
+WARNING:Xst:2677 - Node <uart_unit/fifo_rx_unit/array_reg_3_7> of sequential type is unconnected in block <sd_controller>.
+WARNING:Xst:2677 - Node <uart_unit/fifo_rx_unit/array_reg_3_6> of sequential type is unconnected in block <sd_controller>.
+WARNING:Xst:2677 - Node <uart_unit/fifo_rx_unit/array_reg_3_5> of sequential type is unconnected in block <sd_controller>.
+WARNING:Xst:2677 - Node <uart_unit/fifo_rx_unit/array_reg_3_4> of sequential type is unconnected in block <sd_controller>.
+WARNING:Xst:2677 - Node <uart_unit/fifo_rx_unit/array_reg_3_3> of sequential type is unconnected in block <sd_controller>.
+WARNING:Xst:2677 - Node <uart_unit/fifo_rx_unit/array_reg_3_2> of sequential type is unconnected in block <sd_controller>.
+WARNING:Xst:2677 - Node <uart_unit/fifo_rx_unit/array_reg_3_1> of sequential type is unconnected in block <sd_controller>.
+WARNING:Xst:2677 - Node <uart_unit/fifo_rx_unit/array_reg_3_0> of sequential type is unconnected in block <sd_controller>.
+WARNING:Xst:2677 - Node <uart_unit/fifo_rx_unit/array_reg_1_7> of sequential type is unconnected in block <sd_controller>.
+WARNING:Xst:2677 - Node <uart_unit/fifo_rx_unit/array_reg_1_6> of sequential type is unconnected in block <sd_controller>.
+WARNING:Xst:2677 - Node <uart_unit/fifo_rx_unit/array_reg_1_5> of sequential type is unconnected in block <sd_controller>.
+WARNING:Xst:2677 - Node <uart_unit/fifo_rx_unit/array_reg_1_4> of sequential type is unconnected in block <sd_controller>.
+WARNING:Xst:2677 - Node <uart_unit/fifo_rx_unit/array_reg_1_3> of sequential type is unconnected in block <sd_controller>.
+WARNING:Xst:2677 - Node <uart_unit/fifo_rx_unit/array_reg_1_2> of sequential type is unconnected in block <sd_controller>.
+WARNING:Xst:2677 - Node <uart_unit/fifo_rx_unit/array_reg_1_1> of sequential type is unconnected in block <sd_controller>.
+WARNING:Xst:2677 - Node <uart_unit/fifo_rx_unit/array_reg_1_0> of sequential type is unconnected in block <sd_controller>.
+WARNING:Xst:2677 - Node <uart_unit/fifo_rx_unit/array_reg_0_7> of sequential type is unconnected in block <sd_controller>.
+WARNING:Xst:2677 - Node <uart_unit/fifo_rx_unit/array_reg_0_6> of sequential type is unconnected in block <sd_controller>.
+WARNING:Xst:2677 - Node <uart_unit/fifo_rx_unit/array_reg_0_5> of sequential type is unconnected in block <sd_controller>.
+WARNING:Xst:2677 - Node <uart_unit/fifo_rx_unit/array_reg_0_4> of sequential type is unconnected in block <sd_controller>.
+WARNING:Xst:2677 - Node <uart_unit/fifo_rx_unit/array_reg_0_3> of sequential type is unconnected in block <sd_controller>.
+WARNING:Xst:2677 - Node <uart_unit/fifo_rx_unit/array_reg_0_2> of sequential type is unconnected in block <sd_controller>.
+WARNING:Xst:2677 - Node <uart_unit/fifo_rx_unit/array_reg_0_1> of sequential type is unconnected in block <sd_controller>.
+WARNING:Xst:2677 - Node <uart_unit/fifo_rx_unit/array_reg_0_0> of sequential type is unconnected in block <sd_controller>.
+WARNING:Xst:2677 - Node <uart_unit/fifo_rx_unit/array_reg_2_7> of sequential type is unconnected in block <sd_controller>.
+WARNING:Xst:2677 - Node <uart_unit/fifo_rx_unit/array_reg_2_6> of sequential type is unconnected in block <sd_controller>.
+WARNING:Xst:2677 - Node <uart_unit/fifo_rx_unit/array_reg_2_5> of sequential type is unconnected in block <sd_controller>.
+WARNING:Xst:2677 - Node <uart_unit/fifo_rx_unit/array_reg_2_4> of sequential type is unconnected in block <sd_controller>.
+WARNING:Xst:2677 - Node <uart_unit/fifo_rx_unit/array_reg_2_3> of sequential type is unconnected in block <sd_controller>.
+WARNING:Xst:2677 - Node <uart_unit/fifo_rx_unit/array_reg_2_2> of sequential type is unconnected in block <sd_controller>.
+WARNING:Xst:2677 - Node <uart_unit/fifo_rx_unit/array_reg_2_1> of sequential type is unconnected in block <sd_controller>.
+WARNING:Xst:2677 - Node <uart_unit/fifo_rx_unit/array_reg_2_0> of sequential type is unconnected in block <sd_controller>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block sd_controller, actual ratio is 23.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 422
+ Flip-Flops                                            : 422
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : sd_controller.ngr
+Top Level Output File Name         : sd_controller
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 57
+
+Cell Usage :
+# BELS                             : 1091
+#      GND                         : 1
+#      INV                         : 24
+#      LUT1                        : 79
+#      LUT2                        : 40
+#      LUT2_D                      : 9
+#      LUT2_L                      : 4
+#      LUT3                        : 99
+#      LUT3_D                      : 9
+#      LUT3_L                      : 7
+#      LUT4                        : 471
+#      LUT4_D                      : 20
+#      LUT4_L                      : 76
+#      MUXCY                       : 107
+#      MUXF5                       : 45
+#      VCC                         : 1
+#      XORCY                       : 99
+# FlipFlops/Latches                : 422
+#      FD                          : 53
+#      FDC                         : 50
+#      FDCE                        : 32
+#      FDE                         : 250
+#      FDP                         : 2
+#      FDR                         : 31
+#      FDS                         : 4
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 43
+#      IBUF                        : 6
+#      OBUF                        : 37
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200vq100-4 
+
+ Number of Slices:                      440  out of   1920    22%  
+ Number of Slice Flip Flops:            422  out of   3840    10%  
+ Number of 4 input LUTs:                838  out of   3840    21%  
+ Number of IOs:                          57
+ Number of bonded IOBs:                  44  out of     63    69%  
+ Number of GCLKs:                         2  out of      8    25%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 113   |
+clk400kHz1                         | BUFG                   | 309   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+--------------------------+-------+
+Control Signal                     | Buffer(FF name)          | Load  |
+-----------------------------------+--------------------------+-------+
+reset_inv(reset_inv1_INV_0:O)      | NONE(btn_db_unit/q_reg_0)| 84    |
+-----------------------------------+--------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 12.060ns (Maximum Frequency: 82.919MHz)
+   Minimum input arrival time before clock: 11.206ns
+   Maximum output required time after clock: 16.991ns
+   Maximum combinational path delay: 16.137ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 8.492ns (frequency: 117.758MHz)
+  Total number of paths / destination ports: 2305 / 144
+-------------------------------------------------------------------------
+Delay:               8.492ns (Levels of Logic = 4)
+  Source:            uart_unit/baud_gen_unit/r_reg_1 (FF)
+  Destination:       uart_unit/fifo_tx_unit/w_ptr_reg_1 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: uart_unit/baud_gen_unit/r_reg_1 to uart_unit/fifo_tx_unit/w_ptr_reg_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              5   0.720   1.260  uart_unit/baud_gen_unit/r_reg_1 (uart_unit/baud_gen_unit/r_reg_1)
+     LUT4_D:I0->O          7   0.551   1.261  uart_unit/baud_gen_unit/r_next_cmp_eq000022 (uart_unit/baud_gen_unit/r_next_cmp_eq000022)
+     LUT2:I1->O            8   0.551   1.422  uart_unit/baud_gen_unit/r_next_cmp_eq000023 (uart_unit/tick)
+     LUT4_D:I0->O          8   0.551   1.422  uart_unit/uart_tx_unit/tx_done_tick1 (uart_unit/tx_done_tick)
+     LUT4:I0->O            1   0.551   0.000  uart_unit/uart_tx_unit/s_reg_mux0000<1>49 (uart_unit/uart_tx_unit/s_reg_mux0000<1>)
+     FDC:D                     0.203          uart_unit/uart_tx_unit/s_reg_2
+    ----------------------------------------
+    Total                      8.492ns (3.127ns logic, 5.365ns route)
+                                       (36.8% logic, 63.2% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk400kHz1'
+  Clock period: 12.060ns (frequency: 82.919MHz)
+  Total number of paths / destination ports: 9789 / 387
+-------------------------------------------------------------------------
+Delay:               12.060ns (Levels of Logic = 23)
+  Source:            btn_db_unit/q_reg_0 (FF)
+  Destination:       state_3 (FF)
+  Source Clock:      clk400kHz1 rising
+  Destination Clock: clk400kHz1 rising
+
+  Data Path: btn_db_unit/q_reg_0 to state_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.720   1.216  btn_db_unit/q_reg_0 (btn_db_unit/q_reg_0)
+     LUT1:I0->O            1   0.551   0.000  btn_db_unit/Msub_q_next_share0000_cy<0>_rt (btn_db_unit/Msub_q_next_share0000_cy<0>_rt)
+     MUXCY:S->O            1   0.500   0.000  btn_db_unit/Msub_q_next_share0000_cy<0> (btn_db_unit/Msub_q_next_share0000_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  btn_db_unit/Msub_q_next_share0000_cy<1> (btn_db_unit/Msub_q_next_share0000_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  btn_db_unit/Msub_q_next_share0000_cy<2> (btn_db_unit/Msub_q_next_share0000_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  btn_db_unit/Msub_q_next_share0000_cy<3> (btn_db_unit/Msub_q_next_share0000_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  btn_db_unit/Msub_q_next_share0000_cy<4> (btn_db_unit/Msub_q_next_share0000_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  btn_db_unit/Msub_q_next_share0000_cy<5> (btn_db_unit/Msub_q_next_share0000_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  btn_db_unit/Msub_q_next_share0000_cy<6> (btn_db_unit/Msub_q_next_share0000_cy<6>)
+     MUXCY:CI->O           1   0.064   0.000  btn_db_unit/Msub_q_next_share0000_cy<7> (btn_db_unit/Msub_q_next_share0000_cy<7>)
+     MUXCY:CI->O           1   0.064   0.000  btn_db_unit/Msub_q_next_share0000_cy<8> (btn_db_unit/Msub_q_next_share0000_cy<8>)
+     MUXCY:CI->O           1   0.064   0.000  btn_db_unit/Msub_q_next_share0000_cy<9> (btn_db_unit/Msub_q_next_share0000_cy<9>)
+     MUXCY:CI->O           1   0.064   0.000  btn_db_unit/Msub_q_next_share0000_cy<10> (btn_db_unit/Msub_q_next_share0000_cy<10>)
+     MUXCY:CI->O           1   0.064   0.000  btn_db_unit/Msub_q_next_share0000_cy<11> (btn_db_unit/Msub_q_next_share0000_cy<11>)
+     MUXCY:CI->O           1   0.064   0.000  btn_db_unit/Msub_q_next_share0000_cy<12> (btn_db_unit/Msub_q_next_share0000_cy<12>)
+     MUXCY:CI->O           1   0.064   0.000  btn_db_unit/Msub_q_next_share0000_cy<13> (btn_db_unit/Msub_q_next_share0000_cy<13>)
+     MUXCY:CI->O           1   0.064   0.000  btn_db_unit/Msub_q_next_share0000_cy<14> (btn_db_unit/Msub_q_next_share0000_cy<14>)
+     MUXCY:CI->O           1   0.064   0.000  btn_db_unit/Msub_q_next_share0000_cy<15> (btn_db_unit/Msub_q_next_share0000_cy<15>)
+     MUXCY:CI->O           0   0.064   0.000  btn_db_unit/Msub_q_next_share0000_cy<16> (btn_db_unit/Msub_q_next_share0000_cy<16>)
+     XORCY:CI->O           1   0.904   0.827  btn_db_unit/Msub_q_next_share0000_xor<17> (btn_db_unit/q_next_share0000<17>)
+     LUT4:I3->O            2   0.551   0.903  btn_db_unit/q_next<17>1 (btn_db_unit/q_next<17>)
+     LUT4:I3->O            1   0.551   0.000  btn_db_unit/state_reg_cmp_eq0000_wg_lut<4> (btn_db_unit/state_reg_cmp_eq0000_wg_lut<4>)
+     MUXCY:S->O           13   0.739   1.196  btn_db_unit/state_reg_cmp_eq0000_wg_cy<4> (btn_db_unit/state_reg_cmp_eq0000)
+     LUT4:I3->O            1   0.551   0.801  state_mux0002<3>1_SW0 (N398)
+     FDS:S                     1.026          state_25
+    ----------------------------------------
+    Total                     12.060ns (7.117ns logic, 4.943ns route)
+                                       (59.0% logic, 41.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk400kHz1'
+  Total number of paths / destination ports: 1022 / 397
+-------------------------------------------------------------------------
+Offset:              11.206ns (Levels of Logic = 8)
+  Source:            btn<0> (PAD)
+  Destination:       state_3 (FF)
+  Destination Clock: clk400kHz1 rising
+
+  Data Path: btn<0> to state_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             9   0.821   1.463  btn_0_IBUF (btn_0_IBUF)
+     LUT3_D:I0->O         18   0.551   1.612  btn_db_unit/q_next<0>21 (btn_db_unit/N11)
+     LUT4:I1->O            2   0.551   1.216  btn_db_unit/q_next<6>1 (btn_db_unit/q_next<6>)
+     LUT4:I0->O            1   0.551   0.000  btn_db_unit/state_reg_cmp_eq0000_wg_lut<2> (btn_db_unit/state_reg_cmp_eq0000_wg_lut<2>)
+     MUXCY:S->O            1   0.500   0.000  btn_db_unit/state_reg_cmp_eq0000_wg_cy<2> (btn_db_unit/state_reg_cmp_eq0000_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  btn_db_unit/state_reg_cmp_eq0000_wg_cy<3> (btn_db_unit/state_reg_cmp_eq0000_wg_cy<3>)
+     MUXCY:CI->O          13   0.303   1.196  btn_db_unit/state_reg_cmp_eq0000_wg_cy<4> (btn_db_unit/state_reg_cmp_eq0000)
+     LUT4:I3->O            1   0.551   0.801  state_mux0002<3>1_SW0 (N398)
+     FDS:S                     1.026          state_25
+    ----------------------------------------
+    Total                     11.206ns (4.918ns logic, 6.288ns route)
+                                       (43.9% logic, 56.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk400kHz1'
+  Total number of paths / destination ports: 437 / 27
+-------------------------------------------------------------------------
+Offset:              16.991ns (Levels of Logic = 24)
+  Source:            btn_db_unit/q_reg_0 (FF)
+  Destination:       test_tick_button (PAD)
+  Source Clock:      clk400kHz1 rising
+
+  Data Path: btn_db_unit/q_reg_0 to test_tick_button
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.720   1.216  btn_db_unit/q_reg_0 (btn_db_unit/q_reg_0)
+     LUT1:I0->O            1   0.551   0.000  btn_db_unit/Msub_q_next_share0000_cy<0>_rt (btn_db_unit/Msub_q_next_share0000_cy<0>_rt)
+     MUXCY:S->O            1   0.500   0.000  btn_db_unit/Msub_q_next_share0000_cy<0> (btn_db_unit/Msub_q_next_share0000_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  btn_db_unit/Msub_q_next_share0000_cy<1> (btn_db_unit/Msub_q_next_share0000_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  btn_db_unit/Msub_q_next_share0000_cy<2> (btn_db_unit/Msub_q_next_share0000_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  btn_db_unit/Msub_q_next_share0000_cy<3> (btn_db_unit/Msub_q_next_share0000_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  btn_db_unit/Msub_q_next_share0000_cy<4> (btn_db_unit/Msub_q_next_share0000_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  btn_db_unit/Msub_q_next_share0000_cy<5> (btn_db_unit/Msub_q_next_share0000_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  btn_db_unit/Msub_q_next_share0000_cy<6> (btn_db_unit/Msub_q_next_share0000_cy<6>)
+     MUXCY:CI->O           1   0.064   0.000  btn_db_unit/Msub_q_next_share0000_cy<7> (btn_db_unit/Msub_q_next_share0000_cy<7>)
+     MUXCY:CI->O           1   0.064   0.000  btn_db_unit/Msub_q_next_share0000_cy<8> (btn_db_unit/Msub_q_next_share0000_cy<8>)
+     MUXCY:CI->O           1   0.064   0.000  btn_db_unit/Msub_q_next_share0000_cy<9> (btn_db_unit/Msub_q_next_share0000_cy<9>)
+     MUXCY:CI->O           1   0.064   0.000  btn_db_unit/Msub_q_next_share0000_cy<10> (btn_db_unit/Msub_q_next_share0000_cy<10>)
+     MUXCY:CI->O           1   0.064   0.000  btn_db_unit/Msub_q_next_share0000_cy<11> (btn_db_unit/Msub_q_next_share0000_cy<11>)
+     MUXCY:CI->O           1   0.064   0.000  btn_db_unit/Msub_q_next_share0000_cy<12> (btn_db_unit/Msub_q_next_share0000_cy<12>)
+     MUXCY:CI->O           1   0.064   0.000  btn_db_unit/Msub_q_next_share0000_cy<13> (btn_db_unit/Msub_q_next_share0000_cy<13>)
+     MUXCY:CI->O           1   0.064   0.000  btn_db_unit/Msub_q_next_share0000_cy<14> (btn_db_unit/Msub_q_next_share0000_cy<14>)
+     MUXCY:CI->O           1   0.064   0.000  btn_db_unit/Msub_q_next_share0000_cy<15> (btn_db_unit/Msub_q_next_share0000_cy<15>)
+     MUXCY:CI->O           0   0.064   0.000  btn_db_unit/Msub_q_next_share0000_cy<16> (btn_db_unit/Msub_q_next_share0000_cy<16>)
+     XORCY:CI->O           1   0.904   0.827  btn_db_unit/Msub_q_next_share0000_xor<17> (btn_db_unit/q_next_share0000<17>)
+     LUT4:I3->O            2   0.551   0.903  btn_db_unit/q_next<17>1 (btn_db_unit/q_next<17>)
+     LUT4:I3->O            1   0.551   0.000  btn_db_unit/state_reg_cmp_eq0000_wg_lut<4> (btn_db_unit/state_reg_cmp_eq0000_wg_lut<4>)
+     MUXCY:S->O           13   0.739   1.509  btn_db_unit/state_reg_cmp_eq0000_wg_cy<4> (btn_db_unit/state_reg_cmp_eq0000)
+     LUT4:I0->O            1   0.551   0.801  btn_db_unit/db_tick1 (test_tick_button_OBUF)
+     OBUF:I->O                 5.644          test_tick_button_OBUF (test_tick_button)
+    ----------------------------------------
+    Total                     16.991ns (11.735ns logic, 5.256ns route)
+                                       (69.1% logic, 30.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 74 / 16
+-------------------------------------------------------------------------
+Offset:              11.444ns (Levels of Logic = 3)
+  Source:            disp_unit/q_reg_15 (FF)
+  Destination:       sseg<6> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: disp_unit/q_reg_15 to sseg<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              30   0.720   2.181  disp_unit/q_reg_15 (disp_unit/q_reg_15)
+     LUT4:I0->O            1   0.551   0.996  disp_unit/sseg<4>214 (disp_unit/sseg<4>214)
+     LUT4:I1->O            1   0.551   0.801  disp_unit/sseg<4>369 (sseg_4_OBUF)
+     OBUF:I->O                 5.644          sseg_4_OBUF (sseg<4>)
+    ----------------------------------------
+    Total                     11.444ns (7.466ns logic, 3.978ns route)
+                                       (65.2% logic, 34.8% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 36 / 1
+-------------------------------------------------------------------------
+Delay:               16.137ns (Levels of Logic = 9)
+  Source:            btn<0> (PAD)
+  Destination:       test_tick_button (PAD)
+
+  Data Path: btn<0> to test_tick_button
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             9   0.821   1.463  btn_0_IBUF (btn_0_IBUF)
+     LUT3_D:I0->O         18   0.551   1.612  btn_db_unit/q_next<0>21 (btn_db_unit/N11)
+     LUT4:I1->O            2   0.551   1.216  btn_db_unit/q_next<6>1 (btn_db_unit/q_next<6>)
+     LUT4:I0->O            1   0.551   0.000  btn_db_unit/state_reg_cmp_eq0000_wg_lut<2> (btn_db_unit/state_reg_cmp_eq0000_wg_lut<2>)
+     MUXCY:S->O            1   0.500   0.000  btn_db_unit/state_reg_cmp_eq0000_wg_cy<2> (btn_db_unit/state_reg_cmp_eq0000_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  btn_db_unit/state_reg_cmp_eq0000_wg_cy<3> (btn_db_unit/state_reg_cmp_eq0000_wg_cy<3>)
+     MUXCY:CI->O          13   0.303   1.509  btn_db_unit/state_reg_cmp_eq0000_wg_cy<4> (btn_db_unit/state_reg_cmp_eq0000)
+     LUT4:I0->O            1   0.551   0.801  btn_db_unit/db_tick1 (test_tick_button_OBUF)
+     OBUF:I->O                 5.644          test_tick_button_OBUF (test_tick_button)
+    ----------------------------------------
+    Total                     16.137ns (9.536ns logic, 6.601ns route)
+                                       (59.1% logic, 40.9% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 12.00 secs
+Total CPU time to Xst completion: 11.92 secs
+ 
+--> 
+
+Total memory usage is 201540 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  133 (   0 filtered)
+Number of infos    :    3 (   0 filtered)
+
